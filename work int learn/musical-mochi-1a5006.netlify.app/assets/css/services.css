@@ -1,0 +1,23 @@
+.sidebar-item {
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+
+  .sidebar-item.active {
+    background-color: #ff6200;
+    color: #fff;
+  }
+
+  .sidebar-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .sidebar-item.active a {
+    color: #fff;
+  }
